@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 1;
+}
+body{
+    background-color: darksalmon;
+}
+.contenido{
+    display: flex;
+    margin: 3px;
+    justify-content: center;
+    background-color: darksalmon;
+}
+.caja{
+    display: table-cell;
+    padding: 10px;
+}
+
+.caja:nth-child(1) h2{
+    background: #565656;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+.caja:nth-child(2) h2{
+    background: #069;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+.caja:nth-child(3) h2{
+    background: red;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.caja:nth-child(1) ul{
+    background: #010;
+    text-align: left;
+    color: white;
+}
+
+.caja:nth-child(2) ul{
+    background: #466;
+    text-align: left;
+    color: white;
+}
+.caja:nth-child(3) ul{
+    background: #069;
+    text-align: left;
+    color: white;
+}
+
+@media(min-width:768px){
+    .caja ul{
+        line-height: 30px;
+    }
+}
+
+@media(min-width:1024px){
+    .contenido{
+        width: 1000px;
+        margin: auto;
+    }
+    .caja ul{
+        line-height: 40px;
+    }
+}
+
+@media(min-width:1280px){
+    .contenido{
+        width: 1200px;
+    }
+}
+
+.titulo1{
+    color: brown;
+    text-align: center;
+}
+.titulo2{
+    color: darkslategray;
+    text-align: center;
+}
+
+.prueba{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_input{
+    font-size: 1rem;
+    padding: .8em 1em;
+}
+
+.form_cta{
+    border-color: #069;
+    background-color: beige;
+    color: #069;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: .5em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form_container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
