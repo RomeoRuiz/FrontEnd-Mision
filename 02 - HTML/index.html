@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8″ />
+    <div style="text-align: center;">
+        <img src="logo.png">
+    </div>
+    <title>Pasteleria Don Masa</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css" media="screen" />
+</head>
+<body>
+    
+    <H1 class="titulo1">Pastelería Don Masa</H1>
+    <br>
+    <h2 class="titulo2">Menu de Pasteles</h2>
+
+
+    <div class="contenido">
+        <div class="caja">
+            <h2>Bizcochos</h2>
+            <ul>
+                <li>Vainilla...............................................$200&nbsp;&nbsp;</li>
+                <li>Chocolate...........................................$220</li>
+                <li>Red Velvet..........................................$300</li>
+                <li>Zanahoria...........................................$320</li>
+                <li>Tres Leches Vainilla...........................$280</li>
+                <li>Tres Leches Chocolate.......................$280</li>
+                <li>Moka..................................................$230</li>
+            </ul>
+        </div>
+        <div class="caja">
+            <h2>Rellenos</h2>
+            <ul>
+                <li>Chantilli.............................................$50&nbsp;&nbsp;</li>
+                <li>Queso Crema.....................................$90</li>
+                <li>Crema de Limon................................$80</li>
+                <li>Crema Pastelera.................................$40</li>
+                <li>Crema de Oreo...................................$120&nbsp;&nbsp;</li>
+                <li>Crema de cafe....................................$95</li>
+                <li>Crema de Chocolate...........................$120</li>
+            </ul>
+        </div>
+        <div class="caja">
+            <h2>Decoraciones</h2>
+            <ul>
+                <li>Galletas..............................................$35</li>
+                <li>Rosetas...............................................$50</li>
+                <li>Profiteroles.........................................$30</li>
+                <li>Trufas.................................................$100&nbsp;&nbsp;</li>
+                <li>Frutas.................................................$80</li>
+                <li>Nueces...............................................$70</li>
+                <li>Chantilli.............................................$55</li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <H1 class="titulo1">Haga su Pedido</H1>
+    <br>
+    <br>
+
+
+
+    <div class="prueba">
+        <form method="post" action="pastelero.php" class="form"  >
+            <div class="form_container">
+                <label class="caja">Elige un tipo de Bizcocho</label>
+                <select name="bizcocho" class="form_input">
+                    <option>Vainilla</option>
+                    <option>Chocolate</option>
+                    <option>Red Velvet</option>
+                    <option>Zanahoria</option>
+                    <option>Tres Leches Vainilla</option>
+                    <option>Tres Leches Chocolate</option>
+                    <option>Moka</option>
+                </select>
+
+
+                <label class="caja">Elige un Relleno</label>
+                <select name="relleno" class="form_input">
+                    <option>Chantilli</option>
+                    <option>Queso Crema</option>
+                    <option>Crema de Limon</option>
+                    <option>Crema Pastelera</option>
+                    <option>Crema de Oreo</option>
+                    <option>Crema de cafe</option>
+                    <option>Crema de Chocolate</option>
+                </select>
+
+                <div class="form_input" >
+                    <h2 >Elige tus decoraciones</h2>
+                    <input type="checkbox" name="decoracion[]" id="decoracion1" value="Galletas">
+                    <label for="decoracion1" >Galletas</label>
+                    <input type="checkbox" name="decoracion[]" id="decoracion2" value="Rosetas">
+                    <label for="decoracion2">Rosetas</label>
+                    <input type="checkbox" name="decoracion[]" id="decoracion3" value="Profiteroles">
+                    <label for="decoracion3">Profiteroles</label>
+                    <input type="checkbox" name="decoracion[]" id="decoracion4" value="Trufas">
+                    <label for="decoracion4">Trufas</label>
+                    <input type="checkbox" name="decoracion[]" id="decoracion5" value="Frutas">
+                    <label for="decoracion5">Frutas</label>
+                    <input type="checkbox" name="decoracion[]" id="decoracion6" value="Nueces">
+                    <label for="decoracion6">Nueces</label>
+                    <input type="checkbox" name="decoracion[]" id="decoracion7" value="Chantilli">
+                    <label for="decoracion7">Chantilli</label>
+                </div>
+
+                <input type="text" class="form_input" placeholder="Introduce tu nombre" name="nombre">
+                <input type="tel" class="form_input" placeholder="Introduce tu telefono" name="telefono">
+                <input type="email" class="form_input" placeholder="Introduce tu Email" name="email">
+                <label for="anotacion" class="caja">Anotaciones extras de tu pastel</label>
+                <textarea name="anotacion" class="form_input"> </textarea>
+                <input type="submit" value="Enviar" class="form_cta">
+            </div>
+                   
+            
+        </form>
+    </div>
+    
+
+    
+    
+    
+    
+</body>
+</html>
