@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-header{
+    color: #3656D4;
+    font-weight: 900;
+    font-size: 30px;
+}
+header{
+    background-color: azure;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover{
+    color:coral;
+}
+.nav-menu li:last-child{
+    color: yellowgreen;
+    background-color: #3555D3;
+    border: 2px solid #3555D3;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+.link1{
+    color: #6D7B93;
+}
+.link2{
+    color: white;
+}
+
+.contenedor{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.izquierdo {
+    color: #1F3E72;
+    text-align: center;
+    position: relative;
+    padding-top: 10%;
+}
+.izquierdo p{
+    text-align: left;
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+.derecha {
+    background-color: #005BCE;
+}
+.u2{
+    position: relative;
+    left: 20px;
+    top:50px;
+}
+.u2 p{
+    font-size: 15px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+.iconos-amarillo{
+    color: #FFD11C;
+}
+.u3 p{
+    position: relative;
+    font-size: 20px;
+    left: 20px;
+    top:100px;
+}
+.enfermera{
+    height: 650px;
+    margin-left: 30%;
+}
+
+.div-input {
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 540px;
+    left: 90px;
+    flex-wrap: wrap;
+    width: 950px;
+    height: 90px;
+    border-radius: 3px;
+    border: rgba(36, 88, 148, 0.24) 1px solid;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);
+}
+.div-input-location {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 100px;
+    position: relative;
+    display: block;
+    color: #1F3E72;
+}
+.input-location {
+    font-size: 15px;
+    margin-left: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    color: rgba(0, 0, 139, 0.788);
+    font-weight: bold;
+}
+.div-input-date {
+    margin-top: 20px;
+    margin-left:100px;
+    width: 150px;
+    position: relative;
+    display: block;
+    color: #1F3E72;
+}
+.input-date {
+    font-size: 12px;
+    margin-left: 20px;
+    padding-left: 3px;
+    margin-top: 10px;
+    width: 120px;
+    height: 25px;
+    border: 0;
+    color: #1F3E72;
+    font-weight: bold;
+}
+
+.div-input-vaccine-type {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 150px;
+    position: relative;
+    display: block;
+    color: #1F3E72;
+}
+.input-vaccine-type {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 120px;
+    height: 25px;
+    border: 0;
+    color: rgba(0, 0, 139, 0.781);
+    font-weight: bold;
+}
+.div-input-submit {
+    width: 180px;
+    position: relative;
+    display: block;
+    height: 50px;
+}
+.submit {
+    position: relative;
+    width: 120px;
+    line-height: 40px;
+    margin-left: 37px;
+    margin-top: 18px;
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    padding: 0;
+}
+.submit:hover {
+    position: relative;
+    width: 120px;
+    line-height: 40px;
+    margin-left: 37px;
+    margin-top: 18px;
+    color: #fff;
+    background: darkblue;
+    font-size: 16px;    
+    border-radius: 5px;
+    border: 0;
+}
+
+.logosmarcas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.div-logos{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.logos{
+    position: relative;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 170px;
+}
+.aztralogo{
+    height: 50px;
+    top: 15px;
+    opacity: 0.2;
+}
+.sinovaclogo {
+    height: 20px;
+    top: 45px;
+    opacity: 0.2;
+}
+.pfizerlogo {
+    height: 90px;
+    top: 0px;
+    opacity: 0.2;
+}
+.modernalogo {
+    height: 80px;
+    top: 0px;
+    opacity: 0.2;
+}
+.why{
+    height: 200px;
+}
+.why h2{
+    color: #1F3E72;
+    margin-left: 150px;
+    font-size: xx-large;
+}
+.why p{
+    margin-top: 18px;
+    color: #1F3E72;
+    margin-left: 10%;
+    margin-right: 65%;
+    font-size: 15px;
+}
+.recomendaciones{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 150px;
+}
+.recocuadros{
+    position: relative;
+    margin-right: 25px;
+    margin-left: 15px;
+    width: 25%;
+    background-color: white(0, 0, 139, 0.5);
+    border-radius: 10px;
+    border: rgba(36, 88, 148, 0.24) 1px solid;
+    box-shadow: 3px 3px 8px rgb(191, 197, 212);    
+}
+.iconosreco{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 139, 0.1);
+    padding: 12px 10px 10px 12px;
+    color: #1F3E72;
+    font-size: 25px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 5px;
+}
+.recocuadros h2{
+    font-size: x-large;
+    color: #1F3E72;
+    font-weight: 500;
+    margin: 0px 15px 5px 25px;
+}
+.recocuadros p{
+    font-size: medium;
+    color: rgba(38, 38, 117, 0.5);
+    font-weight: 200;
+    margin: 20px 15px 5px 25px;
+}
+.contenedor2{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 50px;
+}
+.c2izquierda{
+    width: 100%;
+    background-color: yellowgreen;
+}
+.c2derecha{
+    width: 100%;
+    background-color: #005BCE;
+    align-items: center;
+}
