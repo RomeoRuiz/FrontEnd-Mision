@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    align-items: center;
+    background-color: goldenrod;
+}
+.contenedor{}
+.back1{
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 600px;
+    width: 440px;
+    background-color: #F35067;
+    position: absolute;
+    border-radius: 5%;
+    border: solid rgba(0, 0, 0, 0.2);
+}
+.back2{
+    margin-top: 130px;
+    margin-left: 690px;
+    height: 520px;
+    width: 360px;
+    background-color: #F35067;    
+    position: absolute;
+    border-bottom-right-radius: 5%;
+    border: solid rgba(0, 0, 0, 0.2);
+}
+.fondoback{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 750px;
+    height: 200px;
+    width: 310px;
+    border-bottom-left-radius: 40%;
+    background: goldenrod;
+}
+.sombra{
+    position: absolute;
+    background: #C91F1D;
+}
+.c1{
+    height: 420px;
+    width: 20px;
+    margin-left: 250px;
+    margin-top: 211px;
+    border-top: solid rgba(0, 0, 0, 0.0);
+    border-right: solid rgba(0, 0, 0, 0.4);
+    border-left: solid rgba(0, 0, 0, 0.4);
+    border-bottom: solid rgba(0, 0, 0, 0.0);
+}
+.c2{
+    height: 20px;
+    width: 260px;
+    margin-left: 271px;
+    margin-top: 190px;
+    border-top: solid rgba(0, 0, 0, 0.4);
+    border-right: solid rgba(0, 0, 0, 0.4);
+    
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+}
+.c345{
+    height: 20px;
+    width: 115px;
+    margin-left: 504px;
+    margin-top: 151px;
+    transform: rotate(310deg);
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+}
+.c6{
+    height: 19px;
+    width: 90px;
+    margin-left: 600px;
+    margin-top: 111px;
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+    border-right: solid rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: -20%;
+    border-top-right-radius: 60%;
+}
+.e1{
+    height: 20px;
+    width: 20px;
+    margin-left: 250px;
+    margin-top: 190px;
+    border-top-left-radius: 100%;
+    border-top: solid rgba(0, 0, 0, 0.4);
+    
+    border-left: solid rgba(0, 0, 0, 0.4);
+    border-bottom: solid rgba(0, 0, 0, 0.0);
+}
+.e2{
+    height: 23px;
+    width: 20px;
+    margin-left: 250px;
+    margin-top: 628px;
+    border-bottom-left-radius: 100%;
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+    border-left: solid rgba(0, 0, 0, 0.4);
+}
+.c7{
+    height: 40px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 112px;
+    border: solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+.e3{
+    height: 10px;
+    width: 15px;
+    margin-left: 590px;
+    margin-top: 111px;    
+}
+.c8{
+    height: 25px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 140px;
+    border: solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.c9{
+    height: 45px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 152px;
+    border: solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.c9a{
+    height: 433px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 182px;
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+    border-left: solid rgba(0, 0, 0, 0.4);
+    border-right: solid rgba(0, 0, 0, 0.4);
+}
+.c11{
+    height: 20px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 620px;
+    border-top: solid rgba(0, 0, 0, 0.4);
+    
+    border-left: solid rgba(0, 0, 0, 0.4);
+    border-right: solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+.c12{
+    height: 20px;
+    width: 385px;
+    margin-left: 271px;
+    margin-top: 630px;
+    border-top: solid rgba(0, 0, 0, 0.4);
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+}
+.c13{
+    height: 20px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 630px;
+    border-top: solid rgba(0, 0, 0, 0.0);
+    border-bottom: solid rgba(0, 0, 0, 0.4);
+    border-left: solid rgba(0, 0, 0, 0.4);
+    border-right: solid rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.c10{
+    height: 20px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 608px;
+    border: solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+.c10a{
+    height: 40px;
+    width: 45px;
+    margin-left: 645px;
+    margin-top: 570px;
+    border: solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
