@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/style.css">
     <title>Pokedex</title>
+    
 </head>
 <body>
     <div class="contenedor">
@@ -23,16 +24,66 @@
         <div class="e3 sombra"></div>
         <div class="c8 sombra"></div>
         <div class="c9 sombra"></div>
+        <div class="c14 sombra"></div>
+        <div class="c14ei sombra"></div>
+        <div class="c14ed sombra"></div>
         <div class="c9a sombra"></div>
-        
         <div class="c12 sombra"></div>
         <div class="c13 sombra"></div>
         <div class="c10a sombra"></div>
         <div class="c10 sombra"></div>
-        
         <div class="c11 sombra"></div>
+        <div class="c16 sombra"></div>
+        <div class="c789 sombra"></div>
+        <div class="c20 sombra"></div>
+        <div class="c789b sombra"></div>
+        <div class="c5 sombra"></div>
+        <div class="lcdback"></div>
+        <div class="lcdfront"  id="pokeFondo"></div>
+        <div class="panelabajo"></div>
+        <div class="joyup"></div>
+        <div class="joydown"></div>
+        <div class="joyleft"></div>
+        <div class="joyright"></div>
+        <div class="joycentral"></div>
+        <div class="logoPokedex">
+            <img src="./pokedex.png" alt="pokedex"width="250px">
+        </div>
+        <div class="pokeNombre">
+            <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName">
+        </div>
+        <div class="fotoPoke">
+            <img src="./pokebola.png" alt="pokemon" id="pokeImg" width="150px">
+        </div>
+        <div class="btnBuscar">
+            <button onclick="fetchPokemon()">Buscar</button>
+        </div>
+        <div class="panelderecha"></div>
+        <div class="Generales">
+            <p class="pokeNumero" id="pokeNume"></p>
+            <p class="pokeNom" id="pokeNom"></p>
+            <p class="pokemonTipo pokeDatos" id="pokemonTipo">Tipo: </p>
+            <p class="pokemonPeso pokeDatos" id="pokemonPeso">Peso: </p>
+            <p class="pokemonAltura pokeDatos" id="pokemonAltura">Altura: </p>
+            <p class="pokemonMov1 pokeDatos" id="pokemonMov1">Mov 1: </p>
+            <p class="pokemonMov2 pokeDatos" id="pokemonMov2">Mov 2: </p>
+            <p class="pokemonHP pokeDatos" id="pokemonHP">HP: </p>
+            <p class="pokemonAtaque pokeDatos" id="pokemonAtaque">Ataque: </p>
+            <p class="pokemonDefensa pokeDatos" id="pokemonDefensa">Defensa: </p>
+            <p class="pokemonAtaqueEspecial pokeDatos" id="pokemonAtaqueEspecial">Ataque Especial: </p>
+            <p class="pokemonDefensaEspecial pokeDatos" id="pokemonDefensaEspecial">Def Especial: </p>
+            <p class="pokemonVelocidad pokeDatos" id="pokemonVelocidad">Velocidad: </p>
+        </div>
         
-        
+
+        </div>
+        <!--
+            hp,pokeAtaque,pokeDefensa,pokeAtaqueEspecial,pokeDefensaEspecial,pokeVelocidad
+        <h1>Pokedex LaunchX</h1>
+        <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName"><br>
+        <img src="./pokebola.png" alt="pokemon" id="pokeImg" width="150px"><br>
+        <button onclick="fetchPokemon()">Cambiar pokemon</button>-->
     </div>
 </body>
+<footer><script src="./pokedexLaunchX.js"></script></footer>
 </html>
