@@ -1,0 +1,36 @@
+const fetchPokemon = () => {
+    const pokeNombre = document.getElementById("pokeName");
+    let pokeInput = pokeNombre.value;
+    const url = `https://pokeapi.co/api/v2/pokemon/${pokeInput}`;
+    fetch(url).then((res) => {
+        if (res.status != "200"){
+            console.log(res);
+            pokeImage("./noFound.png");
+        }
+        else {
+            return res.json();
+        }
+    }).then((data) => {
+        if (data) {
+            console.log(data);
+            let pokeImg = data.sprites.front_default;
+            let pokeFondo = data.sprites.other.dream_world.front_default;
+            let pokeID = data.id;
+            let pokeTipo = data.types[0].type.name;
+            let pokePeso = data.weight / 10 + " kg";
+            let pokeAltura = data.height / 10 + " m";
+            let mov1 = data.abilities[0].ability.name
+            let mov2 = data.abilities[1].ability.name
+            let hp = data.stats[0].base_stat;
+            let pokeAtaque = data.stats[1].base_stat;
+            let pokeDefensa = data.stats[2].base_stat;
+            let pokeAtaqueEspecial = data.stats[3].base_stat;
+            let pokeDefensaEspecial = data.stats[4].base_stat;
+            let pokeVelocidad = data.stats[5].base_stat;
+            
+            pokeImage(pokeImg,pokeFondo);
+            pokeGen(pokeID,pokeInput);
+            pokeDatos1(pokeTipo,pokePeso,pokeAltura,mov1,mov2);
+            pokeDatos2(hp,pokeAtaque,pokeDefensa,pokeAtaqueEspecial,pokeDefensaEspecial,pokeVelocidad)
+        }
+    });
